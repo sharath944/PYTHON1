@@ -1,0 +1,6 @@
+n=int(input())
+o=int(input())
+print("regular price:",185)
+print("purchased new loaf price:",float(185*n))
+print("old loaf:",(185*o)*60/100)
+print("total amount:",float(185*n)+(185*o)*60/100)                                     
